@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="quick_study"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:shortcutShortLabel="@string/shortcut_study_short"
+        android:shortcutLongLabel="@string/shortcut_study_long">
+        <intent
+            android:action="com.example.action.OPEN_ROUTE"
+            android:targetPackage="com.aistudio.eueemastery.kxtmwp"
+            android:targetClass="com.example.MainActivity">
+            <extra android:name="route" android:value="study_smart" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="focus_timer"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_lock_idle_alarm"
+        android:shortcutShortLabel="@string/shortcut_focus_short"
+        android:shortcutLongLabel="@string/shortcut_focus_long">
+        <intent
+            android:action="com.example.action.OPEN_ROUTE"
+            android:targetPackage="com.aistudio.eueemastery.kxtmwp"
+            android:targetClass="com.example.MainActivity">
+            <extra android:name="route" android:value="focus" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="mock_exam"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:shortcutShortLabel="@string/shortcut_exam_short"
+        android:shortcutLongLabel="@string/shortcut_exam_long">
+        <intent
+            android:action="com.example.action.OPEN_ROUTE"
+            android:targetPackage="com.aistudio.eueemastery.kxtmwp"
+            android:targetClass="com.example.MainActivity">
+            <extra android:name="route" android:value="exams" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="today_planner"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_today"
+        android:shortcutShortLabel="@string/shortcut_planner_short"
+        android:shortcutLongLabel="@string/shortcut_planner_long">
+        <intent
+            android:action="com.example.action.OPEN_ROUTE"
+            android:targetPackage="com.aistudio.eueemastery.kxtmwp"
+            android:targetClass="com.example.MainActivity">
+            <extra android:name="route" android:value="planner" />
+        </intent>
+    </shortcut>
+</shortcuts>

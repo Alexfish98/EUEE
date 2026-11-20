@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EUEE Mastery</string>
+    <string name="widget_daily_progress_desc">Displays today\'s study progress, due reviews, and next alarm for EUEE Mastery.</string>
+    <string name="widget_tasks_desc">Displays today\'s scheduled study tasks and focus status.</string>
+    <string name="qs_tile_focus_label">EUEE Focus</string>
+    <string name="shortcut_study_short">Quick Study</string>
+    <string name="shortcut_study_long">Start Smart Study</string>
+    <string name="shortcut_focus_short">Focus Timer</string>
+    <string name="shortcut_focus_long">Start Focus Session</string>
+    <string name="shortcut_exam_short">Mock Exam</string>
+    <string name="shortcut_exam_long">Open Mock Exams</string>
+    <string name="shortcut_planner_short">Planner</string>
+    <string name="shortcut_planner_long">Open Today\'s Planner</string>
+</resources>

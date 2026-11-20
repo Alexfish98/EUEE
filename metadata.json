@@ -1,0 +1,8 @@
+{
+  "name": "EUEE Mastery",
+  "description": "Offline-first Ethiopian University Entrance Examination (EUEE) preparation ecosystem with spaced repetition, mock exams, study planner, native alarms, focus DND, scientific tools, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
